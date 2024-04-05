@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Мотайленко</title>
+</head>
+<body>
+	<fieldset style="width: 320px; border: 2px solid lightgrey; border-radius: 10px; padding: 15px;">
+	<h1>Payment form</h1>
+	<p>Required fields are followed by *.</p>
+	<h2>Contact information</h2>
+
+	<form name="title" action=" " method=" ">
+	<fieldset style="width: 220px;" border-radius: 10px; color: grey;>
+		<legend>Motailenko</legend>
+		<input type = "radio" name = "title" value = "Ace" checked> Ace <br>
+		<input type = "radio" name = "title" value = "King" checked> King <br>
+		<input type = "radio" name = "title" value = "Queen" checked> Queen <br>
+	</fieldset><br>
+</form>
+
+<form name="contact" action=" " method=" ">
+	<label>Name: *</label><br>
+	<input style="width: 240px;" type = "text" name = "name"><br>
+	<br>
+	<label>Email: *</label><br>
+	<input style="width: 240px;" type = "text" name = "email"><br>
+</form>
+
+<form name="card" action=" " method=" ">
+	<h3>Payment information</h3>
+	<label>Card type: </label><br>
+	<select name="pay">
+		<option>Visa</option>
+		<option>Mastercard</option>
+		<option>American Express</option>
+	</select>
+	<br><br>
+	<label>Card number: *</label><br>
+	<input style="width: 200px;" type = "text" name = "card_n"><br>
+</form>
+
+<form name="exp_date" action=" " method=" ">
+	<br>
+	<label>Expiration date: *</label><br>
+	<input style="width: 200px;" type = "text" name = "date" placeholder="MM/YY"><br>
+</form>
+
+<br><br>
+<form name = "button_v">
+	<button name="validate" type="reset" value="Validate the payment">Validate the payment
+	</button>
+</form>
+</fieldset>
+</body>
+</html>
